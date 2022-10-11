@@ -1,0 +1,31 @@
+
+<p>
+  <mat-toolbar>
+    <button mat-icon-button class="example-icon" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="goTo('')">
+        <mat-icon>keyboard_arrow_right</mat-icon>
+        Main page
+      </button>
+      <button mat-menu-item (click)="goTo('firstModule')">
+        <mat-icon>keyboard_arrow_right</mat-icon>
+        First component
+      </button>
+      <button mat-menu-item (click)="goTo('secondPage')">
+        <mat-icon>keyboard_arrow_right</mat-icon>
+        Second page
+      </button>
+    </mat-menu>
+    <span class="title">students app</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+</p>
+  
