@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { StockDataService } from '../_services/stock-data.service';
-import { UserService } from '../_services/user.service';
+import { StockDataService } from '../../services/stock-data.service';
+import { UserService } from '../../services/user.service';
 import {
     MatSnackBarHorizontalPosition,
     MatSnackBarVerticalPosition,
